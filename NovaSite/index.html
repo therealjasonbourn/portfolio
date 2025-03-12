@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!--
+	Requirements:
+	This project should be built using only HTML, CSS, and JavaScript—no external 
+	frameworks or dependencies are necessary (e.g., Node.js, React).
+	Ensure that all media files open in a new tab or window when clicked. 
+	For additional credit, consider implementing functionality to open all media within the same window.	
+	-->
+
+	<title>NOVA Coding Challenge</title>
+	<!--
+		Please make sure to link your CSS and JS files accordingly.
+
+		Please style the overall page as you see fit, and choose user-friendly colours.
+
+		Default width of the page should be 410px.
+		Page should be responsive to a max-width of 565px.
+
+		All images should have one of three classes added to them; Big, Medium, or Small.
+			* - At Default width, "Big" images are to be displayed by themselves per line,
+					"Medium" images will have 2 images per line,
+					"Small" images will have 3 images per line.
+
+		You're free to add any tags, classes, or id's to the page as you see fit to make your content display correctly.
+
+		For the Example images, please note that the RED boxes are for reference only.
+		They are not borders!
+	-->
+</head>
+<body>
+
+	<header style="margin-bottom: 10px;">
+		<!-- Please see "example-01.png" for reference of the layout expected in the header section" -->
+		<!-- The "Menu" link does not need to redirect anywhere, but bonus points if you can make a "Menu" page for the project. -->
+		<!--Kids
+
+		NOVA Coding Challenge - "Your Name"
+
+		Main Menu-->
+
+		<table id="main-table">
+			<td id="td-kids" style="color: red;">Kids</td>
+			<td id="td-title">NOVA Coding Challenge - Jason Bourn</td>
+			<td id="td-menu"><button class="menu-button" onclick="window.location.href='menu.html';">Menu</button></td>
+		</table>
+	</header>
+
+	<div class="main-content">
+        <table style="width: 100%; margin-bottom: 15px;">
+            <td style="width: 50%;"><div style="text-align: center;"><button class="buttonStyled" onclick="showSpellingSlides()">Spelling!</button></div></td>
+            <td style="width: 50%;"><div style="text-align: center;"><button class="buttonStyled" onclick="showContinentImages()">Continents!</button></div></td>
+        </table>
+
+		<div class="spelling-images" id="spelling-images" style="display: none;">
+			<!-- Spelling Images -->
+
+			<!--
+				Requirements:
+				1 - Please write a script that will allow the images ("spelling-01" to "spelling-17") to be dynamically loaded on to the page.
+				2 - There will also be 6 videos that need to be loaded dynamically between the images.
+					a - Please have a button/link displayed beneath each slide that displays a choice between two letters. (See example-02.png for reference)
+					b - The first word will be "fin", and the second word will "bag".
+				3 - All images should use the "Big" class.
+			-->
+
+            <div id="spelling-slideshow-window" class="image-container">
+                <button class="button-overlay-left" onclick="changeSlide(-1)">&#10094;</button>
+                <button class="button-overlay-right" onclick="changeSlide(1)">&#10095;</button>
+            </div>
+            
+            <div>
+                <table style="width: 100%;">
+                    <td style="width: 50%;"><div style="text-align: center;"><button id="buttonOption1" class="button" style="display: none;" onclick="">1</button></div></td>
+                    <td style="width: 50%;"><div style="text-align: center;"><button id="buttonOption2" class="button" style="display: none;" onclick="">2</button></div></td>
+                </table>
+            </div>
+
+			<script>
+				let currentSlide = 0;
+			
+				function changeSlide(n) {
+					currentSlide += n;
+                    refreshSpellingSlides();
+                    refreshButtons();
+				}
+			</script>
+		</div>
+
+		<div class="int-club-images" id="int-club-images" style="display: none;">
+			<!-- Continent Images -->
+
+			<!--
+				Requirements:
+				1 - Images here can be displayed statically.
+
+				2 - The first image needs to be an "info" slide, and as such should:
+					a - Not be clickable.
+					b - Have a transistion affect added to the hover event, to make it "pop out".
+					c - Change the cursor to an "info" image.
+					d - Image should be slightly smaller than the other images on the page, but when the "hover" event is triggered,
+							should return to the same size as other images.
+							(Please see example-03.png and example-04.png for reference)
+
+				3 - The following images should have specific class names:
+					Big - Images: 01 - 04, 07, 08, 11, 12, 21.
+					Medium - Images: 05, 06, 09, 10.
+					Small - Images: 13 - 20.
+
+					(Please see example-05.png and example-06.png for reference)
+			-->
+
+            <table id="continents-table">
+                <tr><img src="images/continents-01.jpg" class="Big" id="info-bubble" tag="continents"></tr>
+                <tr><img src="images/continents-02.jpg" class="Big" tag="continents" onclick='openImage("images/continents-02.jpg")'></tr>
+            </table>
+            <table id="continents-table">
+                <tr><img src="images/continents-03.jpg" class="Big" tag="continents" onclick='openImage("images/continents-03.jpg")'></tr>
+            </table>
+            <table id="continents-table">
+                <tr><img src="images/continents-04.jpg" class="Big" tag="continents" onclick='openImage("images/continents-04.jpg")'></tr>
+                <tr>
+                    <td><img src="images/continents-05.jpg" class="Medium" tag="continents" onclick='openImage("images/continents-05.jpg")'></td>
+                    <td><img src="images/continents-06.jpg" class="Medium" tag="continents" onclick='openImage("images/continents-06.jpg")'></td>
+                </tr>
+            </table>
+            <table id="continents-table">
+                <tr><img src="images/continents-07.jpg" class="Big" tag="continents" onclick='openImage("images/continents-07.jpg")'></tr>
+                <tr><img src="images/continents-08.jpg" class="Big" tag="continents" onclick='openImage("images/continents-08.jpg")'></tr>
+                <tr>
+                    <td><img src="images/continents-09.jpg" class="Medium" tag="continents" 
+                        onclick='openImage("images/continents-09.jpg")'></td>
+                    <td><img src="images/continents-10.jpg" class="Medium" tag="continents" 
+                        onclick='openImage("images/continents-10.jpg")'></td>
+                </tr>
+            </table>
+            <table id="continents-table">
+                <tr><img src="images/continents-11.jpg" class="Big" tag="continents" onclick='openImage("images/continents-11.jpg")'></tr>
+            </table>
+            <table id="continents-table" style="margin-bottom: 0px;">
+                <tr><img src="images/continents-12.jpg" class="Big" tag="continents" onclick='openImage("images/continents-12.jpg")'></tr>
+                <tr>
+                    <td><img src="images/continents-13.jpg" class="Small" tag="continents" onclick='openImage("images/continents-13.jpg")'></td>
+                    <td><img src="images/continents-14.jpg" class="Small" tag="continents" onclick='openImage("images/continents-14.jpg")'></td>
+                    <td><img src="images/continents-15.jpg" class="Small" tag="continents" onclick='openImage("images/continents-15.jpg")'></td>
+                </tr>
+                <tr>
+                    <td><img src="images/continents-16.jpg" class="Small" tag="continents" onclick='openImage("images/continents-16.jpg")'></td>
+                    <td><img src="images/continents-17.jpg" class="Small" tag="continents" onclick='openImage("images/continents-17.jpg")'></td>
+                    <td><img src="images/continents-18.jpg" class="Small" tag="continents" onclick='openImage("images/continents-18.jpg")'></td>
+                </tr>
+            </table>
+            <table id="continents-table">
+                <tr>
+                    <td><img src="images/continents-19.jpg" class="Small" tag="continents" onclick='openImage("images/continents-19.jpg")'></td>
+                    <td><img src="images/continents-20.jpg" class="Small" tag="continents" onclick='openImage("images/continents-20.jpg")'></td>
+                </tr>
+            </table>
+            <table id="continents-table">
+                <tr>
+                    <img src="images/continents-21.jpg" class="Big" tag="continents" onclick='openImage("images/continents-21.jpg")'>
+                </tr>
+            </table>
+		</div>
+	</div>
+
+	<footer style='width: 100%; text-align: center;'>
+        <div id='copyright'></div>
+        <script>
+            const copyright = document.getElementById('copyright');
+            var today = new Date();
+            copyright.innerHTML = 'Copyright © ' + today.getFullYear() + ', NOVA Ltd.';
+        </script>
+    </footer>
+
+</body>
+
+<script src="js/scripts.js"></script>
+<script>
+    function openImage(url) { 
+        window.open(url, '1', 'height=400,width=600');
+    }
+    window.onload = loadSpellingImages(17);
+</script>
+</html>

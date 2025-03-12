@@ -1,0 +1,201 @@
+body {
+    background-color: lightskyblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('nova-2-50.png'); /* Set the background image */
+    background-repeat: repeat; /* Default value, will tile the image both horizontally and vertically */
+    /* Optional: To control image size */
+    background-size: 200px;
+}
+
+button {
+    background-color: #ffcb05; 
+    color: #333; 
+    font-size: 1.2em; 
+    font-weight: bold;
+    padding: 5px 20px;
+    border: 3px solid #f5a623;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer; 
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #f5a623;
+    color: white; 
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.main-content, #main-table, #spelling-slideshow-window {
+    width: 100%;
+    max-width: 565px; 
+    min-width: 410px;
+    margin: 0 auto;
+}
+
+.main-menu-table table{
+    width: 100%;
+    max-width: 565px; 
+    min-width: 410px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-menu-table table td button{
+    border: 1px solid white;
+    height: 40px;
+    width: 400px;
+    font-size: 12px; 
+    border-radius: 0px;
+    transition: all 0.3s ease
+}
+
+.menu-button {
+    background-color: lightskyblue; 
+    color: #333; 
+    font-size: 10px; 
+    font-weight: bold;
+    padding: none;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+    cursor: pointer; 
+    transition: none;
+}
+
+.menu-button:hover {
+    background-color: lightskyblue;
+    color: white; 
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+    transform: scale(1);
+}
+
+.int-club-images {
+    text-align: center;
+}
+
+.int-club-images table {
+    margin: 0 auto; 
+    border-collapse: collapse;
+}
+
+.Big {
+    max-width: 565px; 
+    min-width: 410px;
+    width: 410px;
+}
+
+.Medium{
+    width: 205px;
+}
+
+.Small{
+    width: 136px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position:inherit;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 100%; 
+    height: auto;
+}
+
+.image-container .button-overlay-left {
+    position: absolute;
+    top: 50%;
+    left: 0%; 
+    transform: translate(0%, -50%); 
+    padding: 20px 10px;
+    background-color: #007bff7b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.image-container .button-overlay-right {
+    position: absolute;
+    top: 50%;
+    left: 100%; 
+    transform: translate(-100%, -50%); 
+    padding: 20px 10px;
+    background-color: #007bff7b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button-overlay:hover {
+    background-color: #0056b3;
+}
+
+#main-table {
+    height: 50px;
+    border-collapse: collapse;
+}
+
+#continents-table {
+    border-width: 0px;
+    margin-bottom: 20px;
+}
+
+#td-kids {
+    background-color: #FFD700;
+    text-align: center;
+    width: 50px;
+    vertical-align: bottom;
+}
+
+#td-title {
+    background-color: #F0FFFF;
+    vertical-align: bottom;
+}
+
+#td-menu {
+    background-color: #F0FFFF;
+    vertical-align: top;
+}
+
+#spelling-slideshow-window {
+    align-content: center;
+    height: 375px;
+}
+
+#info-bubble {
+    cursor: help;
+    margin-bottom: 20px;
+    min-width: 350px;
+    width: 65%;
+}
+
+#info-bubble:hover {
+    width: 410px;
+}

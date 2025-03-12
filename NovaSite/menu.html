@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<title>NOVA Coding Challenge - Main Menu</title>
+</head>
+<body>
+
+	<header style="margin-bottom: 10px;">
+
+		<table id="main-table">
+			<td id="td-kids" style="color: red;">Kids</td>
+			<td id="td-title">NOVA Coding Challenge - Jason Bourn</td>
+			<!--<td id="td-menu"><button id="menu-button" onclick="window.location.href='menu.html';">Menu</button></td>-->
+		</table>
+	</header>
+
+	<div class="main-menu-table">
+		<table style="align-content: center;">
+			<tr><td><button onclick="window.location.href='index.html';">Week 1</button></td></tr>
+			<tr><td><button>Week 2</button></td></tr>
+			<tr><td><button>Week 3</button></td></tr>
+		</table>
+	</div>
+
+	<footer style='width: 100%; text-align: center;'>
+        <div id='copyright'></div>
+        <script>
+            const copyright = document.getElementById('copyright');
+            var today = new Date();
+            copyright.innerHTML = 'Copyright © ' + today.getFullYear() + ', NOVA Ltd.';
+        </script>
+    </footer>
+
+</body>
+
+<script src="js/scripts.js"></script>
+<script>
+    function openImage(url) { 
+        window.open(url, '1', 'height=400,width=600');
+    }
+    window.onload = loadSpellingImages(17);
+</script>
+</html>
