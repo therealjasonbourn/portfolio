@@ -1,0 +1,300 @@
+/* General Reset */
+:root {
+    --background-gray: #4f4f50;
+    --prinary-color: #000000;
+    --accent: #b19413;
+    --header-text: #b19413;
+    --accent-2: #9c9a9a; /*--accent-2: #667632;*/
+    --shadow: rgba(0, 0, 0, 0.8);
+}
+/*background-color: var(--primary-color);*/
+
+body, h1, h2, p, ul, li, a, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, .header-paragraph {
+    text-shadow: 2px 2px 4px var(--shadow);
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    /*color: #333;
+    background: #f4f4f9;*/
+    color: #ffffff;
+    background: var(--background-gray);
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background: var(--background-gray);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    background-image: url('/images/001.jpg');
+    background-size: cover; /* Make the image cover the entire header */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+}
+header .profile-pic {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Navigation */
+nav {
+    /*background: #005bb5;*/
+    background: var(--accent);
+    padding: 10px 0;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.nav-links li {
+    margin: 0 15px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 40px;
+}
+h2 {
+    color: var(--header-text);
+    margin-bottom: 15px;
+}
+
+
+
+.projectButton {
+    display: inline-block;
+    padding: 10px 15px;
+    /*background: white;
+    color: #0073e6;*/
+    background: var(--accent);
+    color: white;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(33% - 20px);
+    transition: all 0.3s ease;
+    box-shadow: 0px 6px 12px var(--shadow);
+}
+.projectButton:hover {
+    background-color: white;
+    color: var(--accent); 
+    /*box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);*/
+    transform: scale(1.05);
+    p {
+        color: var(--accent);
+    }
+}
+.projectButton p {
+    color: black;
+    font-weight: lighter;
+}
+
+.cv-button-container {
+    display: flex;
+    flex-direction: row; /*column;*/
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+}
+
+button {
+    transition: 0.3s ease;
+    height: 80px;
+    background: var(--accent);
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    width: calc(20% - 20px);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 6px 12px var(--shadow);
+}
+button:hover {
+    background: white;
+    color: var(--accent);
+    transform: scale(1.05);
+}
+.cv-button.active {
+    background: white;
+    color: var(--accent);
+}
+
+
+.cv-info {
+    background: white;
+    width: 80%;
+    /*height: 600px;*/
+    height: wrap;
+    /*border-style: double;*/
+    color: white;
+
+    /*centering*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.cv-info-div {
+    padding: 5%;
+    padding-top: 3%;
+    background: var(--accent-2);
+    box-shadow: 0 2px 5px var(--shadow);
+    border-style: solid;
+    border-width: 7px;
+    border-color: #5a5a5a;/*#373738;*/
+}
+
+/* Projects */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.projects a {
+    text-decoration: none;
+    font-weight: bold; 
+}
+.projects li {
+    list-style-type: none;
+    text-align: center;
+}
+.project {
+    background: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(33% - 20px);
+    transition: all 0.3s ease;
+}
+.project:hover {
+    background-color: var(--accent);
+    color: white; 
+    box-shadow: 0px 6px 12px var(--shadow);
+    transform: scale(1.05);
+    h3 {
+        color: white;
+    }
+}
+
+.project h3 {
+    margin-bottom: 10px;
+    color: var(--accent);
+}
+.project p {
+    margin-bottom: 10px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: var(--accent);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about p {
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 10px solid var(--accent);/*#0073e6;*/
+    border-style:double;
+}
+
+.company-experience {
+    /*border: 2px solid #0073e6;
+    border-style:double;*/
+    border: var(--accent);
+}
+
+
+/* Contact Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--accent-2);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px var(--shadow);
+}
+form input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+form button {
+    width: 150px;
+    height: 50px;
+    padding: 10px 10px;
+    box-shadow: 0 2px 5px var(--shadow);
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: var(--accent);
+    color: white;
+    margin-top: 20px;
+}
+
+
+/* Image display */
+.android-project-image-row {
+    display: flex;
+    gap: 25px;
+}
+
+.android-project-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px var(--shadow);
+}
+
+.home-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    text-shadow: 2px 2px 4px var(--shadow);
+}
+
+.home-button:hover {
+    color: var(--accent);
+    transform: scale(1.05);
+}
