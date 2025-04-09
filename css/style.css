@@ -151,7 +151,8 @@ button:hover {
     /*height: 600px;*/
     height: wrap;
     /*border-style: double;*/
-    color: white;
+   /* color: white; */
+   color: black;
 
     /*centering*/
     margin-left: auto;

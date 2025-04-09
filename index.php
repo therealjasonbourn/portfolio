@@ -216,10 +216,10 @@
         </section>
         <section id="contact">
             <h2>Contact Me</h2>
-            <form action="mailto:j.bourn594@example.com" method="post" enctype="text/plain">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <form action="send_mail.php" method="POST">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
                 <button type="submit">Send Message</button>
             </form>
         </section>
