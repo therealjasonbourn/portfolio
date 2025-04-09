@@ -91,6 +91,8 @@
                         <li>React.js</li>
                         Database 
                         <li>SQL (MySQL)</li> 
+                        Other
+                        <li>Apache, AWS</li>
                         Willing to learn other languages and frameworks required.
                     </p>
                 </div>
@@ -99,19 +101,13 @@
                     <p id="professional_experience" class="information">
                         <table>
                             <tr class="company-experience">
-                            <td style="text-align: center; vertical-align: top;"><b>NOVA Holdings Co.</b><br>
-                                    January 2025 – Present</td>
-                                <td class="professional_experience_data"><b>Front-end Software Developer</b><br>
-                                    <li>Responsible for creating and managing teaching applications, tools, and webpages for ESL teachers.</li>
-                                    <li>Handled deployment of updates, fixes, and releases for teachers nationwide in Japan.</li>
-                                    <li>Taking part in code refactoring and cleanup of entire codebase.</li>
-                                </td>
-                            </tr>
-                            <tr><td><br></td></tr> <!-- just use this for now -->
-                            <tr class="company-experience">
                                 <td style="text-align: center; vertical-align: top;"><b>Invisible</b><br>
                                     October 2024 – Present</td>
                                 <td class="professional_experience_data"><b>Advanced AI Data Trainer</b><br>
+                                    <i>Artifacts</i>
+                                    <li>Programming work.</li>
+                                    <i>Tether Project</i>
+                                    <li>Query Side-by-Side work.</li>
                                     <i>VQA Project</i>
                                     <li>Worked in the Operator role, annotating and creating statistical analyses for sales data graphs and charts.</li>
                                     <li>Moved up to the editor role in LLM training, reviewing and editing Operator annotations for final delivery.</li>
@@ -120,9 +116,19 @@
                                 </td>
                             </tr>
                             <tr><td><br></td></tr> <!-- just use this for now -->
+                            <tr class="company-experience">
+                            <td style="text-align: center; vertical-align: top;"><b>NOVA Holdings Co.</b><br>
+                                    January 2025 – March 2025</td>
+                                <td class="professional_experience_data"><b>Front-end Software Developer</b><br>
+                                    <li>Responsible for creating and managing teaching applications, tools, and webpages for ESL teachers.</li>
+                                    <li>Handled deployment of updates, fixes, and releases for teachers nationwide in Japan.</li>
+                                    <li>Taking part in code refactoring and cleanup of entire codebase.</li>
+                                </td>
+                            </tr>
+                            <tr><td><br></td></tr> <!-- just use this for now -->
                             <tr>
                             <td style="text-align: center; vertical-align: top;"><b>NOVA Holdings Co.</b><br>
-                                    May 2024 – Present</td>
+                                    May 2024 – March 2025</td>
                                 <td class="professional_experience_data"><b>ESL(English Second Language) Teacher</b><br>
                                     <li>ESL Teacher
                                         <li>Teaching ESL classes for elementary school students, high school students, and adults in group 
