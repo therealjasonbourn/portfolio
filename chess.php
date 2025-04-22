@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/chess.css">
     <script src="javascript/javascript.js"></script>
+    <script src="javascript/ann.js"></script>
 </head>
 
 <body>
@@ -127,6 +128,7 @@
                     const square = getSquare(row, col);
                     square.textContent = pieces[color][type];
                     boardState[row][col] = { color, type };
+                    console.log(boardState);
                 }
                 
                 function getSquare(row, col) {
