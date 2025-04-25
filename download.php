@@ -1,6 +1,6 @@
 <?php
 
-$downloads_list = ["JasonBourn_CV_2.pdf"];
+$downloads_list = ["JasonBourn_CV_2.pdf", "JasonBourn_CV_2.docx"];
 
 if (isset($_GET['file'])) {
     if(in_array($_GET['file'], $downloads_list)){

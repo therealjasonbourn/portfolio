@@ -82,18 +82,26 @@
                 <div class="cv-info-div" id="technical-skills">
                     <h3>Technical Skills</h3>
                     <p id="technical_skills" class="information">
-                        Linux operating systems – RHEL, Ubuntu <br>
-                        Windows operating systems <br>
-                        Version control tools 
-                        <li>SVN, git, GitHub</li> 
-                        Languages 
+                        Programming Languages 
                         <li>Java, PHP, Python, JavaScript, HTML/HTML5, Swift/SwiftUI, CSS, Unity C#, Bash</li>
-                        Frameworks 
-                        <li>React.js</li>
-                        Database 
+
+                        Operating systems
+                        <li>RHEL, Ubuntu, Windows operating systems, macOS</li>
+
+                        Frameworks & Libraries
+                        <li>React.js, NumPy, PyGame</li>
+
+                        Databases 
                         <li>SQL (MySQL)</li> 
-                        Other
-                        <li>Apache, AWS</li>
+
+                        Tools & Platforms
+                        <li>git, SVN, GitHub, AWS, Android Studio, Unity, Docker, Apache</li>
+
+                        Other Skills
+                        <li>REST API development, Agile methodologies, content creation, 
+                            unit testing (JUnit), CI/CD pipelines, technical writing, LLM RLHF, 
+                            LLM prompt engineering</li>
+
                         Willing to learn other languages and frameworks required.
                     </p>
                 </div>
@@ -105,7 +113,7 @@
                                 <td style="text-align: center; vertical-align: top;"><b>Invisible</b><br>
                                     October 2024 – Present</td>
                                 <td class="professional_experience_data"><b>Advanced AI Data Trainer</b><br>
-                                    <i>Artifacts</i>
+                                <!--    <i>Artifacts</i>
                                     <li>Programming work.</li>
                                     <i>Tether Project</i>
                                     <li>Query Side-by-Side work.</li>
@@ -114,6 +122,23 @@
                                     <li>Moved up to the editor role in LLM training, reviewing and editing Operator annotations for final delivery.</li>
                                     <i>VFM Project</i>
                                     <li>Analyzing, annotating, and creating descriptions of cinematic scenes for training LLMs. </li>
+-->
+                                    
+                                    <li>Tether Project (current): Training LLMs through side-by-side prompt analysis, 
+                                        rating, and scoring (~30 tasks/week).</li>
+                                    <li>Artifacts Project (current): Training LLMs to code in Java and Python through RLHF training.</li>
+                                    <ul>
+                                        <li>Programming languages: Java, Python</li>
+                                        <li>Tools: Docker, Visual Studio Code, JUnit</li>
+                                    </ul>
+                                    <li>VFM Project: Worked as an Operator to annotate and create descriptions of 
+                                        cinematic scenes for training LLMs with RLHF.</li>
+                                    <ul>
+                                        <li>Completed 145 tasks over 2 months with an average quality score of 88%, 
+                                            contributing to an overall goal of 4,000 tasks for the 2 month period.</li>
+                                    </ul>
+                                    <li>VQA Project: Worked as a prompt engineer, annotating, reviewing, and editing 
+                                        statistical analyses for sales data graphs and charts.</li>
                                 </td>
                             </tr>
                             <tr><td><br></td></tr> <!-- just use this for now -->
@@ -183,9 +208,11 @@
                 <div class="cv-info-div" id="full-cv" style="display: none;">
                     <h3>Dwonload CV</h3>
                     <p>
-                        Download a PDF of my CV below.
+                        Download a PDF or docx of my CV below.
                     </p>
-                    <a href="download.php?file=JasonBourn_CV_2.pdf" style="text-decoration: none;">CV Download</a>
+                    <a href="download.php?file=JasonBourn_CV_2.pdf" style="text-decoration: none;">CV Download (PDF)</a>
+                    <br>
+                    <a href="download.php?file=JasonBourn_CV_2.docx" style="text-decoration: none;">CV Download (docx)</a>
                 </div>
             </div>
         </section>
