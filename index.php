@@ -15,6 +15,7 @@
             <p class="header-paragraph">Full-Stack Software Engineer | Web Developer | Game Developer | Tech Enthusiast</p>
         </div>
     </header>
+    <a class="home-button">Currently In Development</a>
     <nav>
         <ul class="nav-links">
             <li><a href="#about">About Me</a></li>
@@ -200,8 +201,8 @@
                     ["title" => "The Final Frontier", "description" => "A top down sci-fi shooter game created in Unity 3D.", "link" => "https://sites.google.com/site/tffdev/home"],
                     ["title" => "Mischief", "description" => "Action stealth shooter game created in Unity 3D.", "link" => "https://sites.google.com/site/mischiefcentral/home"],
                     ["title" => "Android Projects", "description" => "Android application projects (in development).", "link" => "android_projects.php"],
-                    ["title" => "Python Game - Pl@4mer", "description" => "A simple 2D python game(in development).", "link" => "platformer_game.php"],
-                    ["title" => "ANN Chess", "description" => "A simple JavaScript chess game. Play against an AI powered by an ANN", "link" => "chess.php"]
+                    ["title" => "Python Game - Pl@4mer (in development)", "description" => "A simple 2D python game(in development).", "link" => "platformer_game.php"],
+                    ["title" => "ANN Chess (in development)", "description" => "A simple JavaScript chess game. Play against an AI powered by an ANN", "link" => "chess.php"]
                 ];
 
                 foreach ($projects as $project) {
