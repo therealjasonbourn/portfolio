@@ -34,7 +34,7 @@
                 experiences. A strong background in debugging, API integration, and technical 
                 documentation with a passion for developing software and contributing to diverse projects.  <br><br>
 
-                Born in 1994 in South Africa, my family successfully moved to the USA in 1998, becoming citizens in 2008. My passion for 
+                Born in 1994 in South Africa, my family successfully immigrated to the USA in 1998, becoming citizens in 2008. My passion for 
                 computers started at a young age, inspired by my father's work in the Information Security industry, writing my first HTML  
                 code in middle school and experimenting with game development in highscool. I went on to University to study computer 
                 science and computer game design and development at one of the most prestigious technical schools in Georgia.<br>
@@ -57,6 +57,9 @@
 
                 This portfolio, powered by PHP and React.js, along with the projects I have worked on, stand as a 
                 demonstration of my capabilities as a software developer.
+            </p>
+            <p>
+                § This site is self hosted on an AWS server giving me a space to hone my skills and show off my work.
             </p>
         </section>
 
@@ -243,13 +246,17 @@
             </div>
         </section>
         <section id="contact">
-            <h2>Contact Me</h2>
+            <h2>Contact Me (currently unavailable)</h2>
             <form action="send_mail.php" method="POST">
                 <input type="text" id="name" name="name" placeholder="Your Name" required>
                 <input type="email" id="email" name="email" placeholder="Your Email" required>
                 <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
                 <button type="submit">Send Message</button>
             </form>
+            <br>
+            <p>
+                The contact form is not working at the moment. Feel free to email me at j.bourn594@gmail.com 
+            </p>
         </section>
     </main>
     <footer>
