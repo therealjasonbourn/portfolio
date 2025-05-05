@@ -116,37 +116,26 @@
                                 <td style="text-align: center; vertical-align: top;"><b>Invisible</b><br>
                                     October 2024 – Present</td>
                                 <td class="professional_experience_data"><b>Advanced AI Data Trainer</b><br>
-                                <!--    <i>Artifacts</i>
-                                    <li>Programming work.</li>
-                                    <i>Tether Project</i>
-                                    <li>Query Side-by-Side work.</li>
-                                    <i>VQA Project</i>
-                                    <li>Worked in the Operator role, annotating and creating statistical analyses for sales data graphs and charts.</li>
-                                    <li>Moved up to the editor role in LLM training, reviewing and editing Operator annotations for final delivery.</li>
-                                    <i>VFM Project</i>
-                                    <li>Analyzing, annotating, and creating descriptions of cinematic scenes for training LLMs. </li>
--->
-                                    
-                                    <li>Tether Project (current): Training LLMs through side-by-side prompt analysis, 
-                                        rating, and scoring (~30 tasks/week).</li>
-                                    <li>Artifacts Project (current): Training LLMs to code in Java and Python through RLHF training.</li>
+                                    Tether Project (current): Training LLMs through side-by-side prompt analysis, 
+                                        rating, and scoring (~30 tasks/week).<br>
+                                    Artifacts Project (current): Training LLMs to code in Java and Python through RLHF training.
                                     <ul>
                                         <li>Programming languages: Java, Python</li>
                                         <li>Tools: Docker, Visual Studio Code, JUnit</li>
                                     </ul>
-                                    <li>VFM Project: Worked as an Operator to annotate and create descriptions of 
-                                        cinematic scenes for training LLMs with RLHF.</li>
+                                    VFM Project: Worked as an Operator to annotate and create descriptions of 
+                                        cinematic scenes for training LLMs with RLHF.
                                     <ul>
                                         <li>Completed 145 tasks over 2 months with an average quality score of 88%, 
                                             contributing to an overall goal of 4,000 tasks for the 2 month period.</li>
                                     </ul>
-                                    <li>VQA Project: Worked as a prompt engineer, annotating, reviewing, and editing 
-                                        statistical analyses for sales data graphs and charts.</li>
+                                    VQA Project: Worked as a prompt engineer, annotating, reviewing, and editing 
+                                        statistical analyses for sales data graphs and charts.
                                 </td>
                             </tr>
                             <tr><td><br></td></tr> <!-- just use this for now -->
                             <tr class="company-experience">
-                            <td style="text-align: center; vertical-align: top;"><b>NOVA Holdings Co.</b><br>
+                                <td style="text-align: center; vertical-align: top;"><b>NOVA Holdings Co.</b><br>
                                     January 2025 – March 2025</td>
                                 <td class="professional_experience_data"><b>Front-end Software Developer</b><br>
                                     <li>Responsible for creating and managing teaching applications, tools, and webpages for ESL teachers.</li>
@@ -155,7 +144,7 @@
                                 </td>
                             </tr>
                             <tr><td><br></td></tr> <!-- just use this for now -->
-                            <tr>
+                            <tr class="company-experience">
                             <td style="text-align: center; vertical-align: top;"><b>NOVA Holdings Co.</b><br>
                                     May 2024 – March 2025</td>
                                 <td class="professional_experience_data"><b>ESL(English Second Language) Teacher</b><br>
@@ -167,7 +156,7 @@
                                 </td>
                             </tr>
                             <tr><td><br></td></tr> <!-- just use this for now -->
-                            <tr>
+                            <tr class="company-experience">
                                 <td style="text-align: center; vertical-align: top;"><b>GBG IDology</b><br>
                                     March 2017 – April 2024</td>
                                 <td class="professional_experience_data"><b>Mid-Level full stack software engineer – LAMP software stack</b><br>
@@ -185,7 +174,7 @@
                                 </td>
                             </tr>
                             <tr><td><br></td></tr> <!-- just use this for now -->
-                            <tr>
+                            <tr class="company-experience">
                                 <td style="text-align: center; vertical-align: top;"><b>GBG IDology</b><br>
                                     March 2022 – April 2024</td>
                                 <td class="professional_experience_data"><b>Mobile developer – Android</b><br>
