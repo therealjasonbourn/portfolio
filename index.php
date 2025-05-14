@@ -220,7 +220,7 @@
                     ["title" => "The Final Frontier", "description" => "A top down sci-fi shooter game created in Unity 3D.", "link" => "https://sites.google.com/site/tffdev/home"],
                     ["title" => "Mischief", "description" => "Action stealth shooter game created in Unity 3D.", "link" => "https://sites.google.com/site/mischiefcentral/home"],
                     ["title" => "Android Projects", "description" => "Android application projects (in development).", "link" => "android_projects.php"],
-                    ["title" => "Python Game - Pl@4mer (in development)", "description" => "A simple 2D python game(in development).", "link" => "platformer_game.php"],
+                    ["title" => "Birds of a Feather (in development)", "description" => "A 3D sidescrolling game where you play as a pigeon.", "link" => "birds_of_a_feather.php"],
                     ["title" => "ANN Chess (in development)", "description" => "A simple JavaScript chess game. Play against an AI powered by an ANN", "link" => "chess.php"]
                 ];
 
